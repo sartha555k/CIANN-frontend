@@ -21,7 +21,7 @@ const NavBar = () => {
     <div className="navbar bg-black shadow-sm fixed top-0 z-1 ">
       <div className="flex-1">
         <Link to="/" className="btn btn-ghost text-xl">
-          DevTinder
+          CIANN
         </Link>
       </div>
       <div className="flex gap-2">
