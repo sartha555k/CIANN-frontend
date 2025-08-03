@@ -2,7 +2,7 @@ import React, { use, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
 import axios from "axios";
-import { BASE_URL } from "../utils/constants";
+const BASE_URL = import.meta.env.BASE_URL;
 
 const Chat = () => {
   const { targetUserId } = useParams();

@@ -2,7 +2,7 @@ import axios from "axios";
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link, Links, useNavigate } from "react-router-dom";
-import { BASE_URL } from "../utils/constants";
+const BASE_URL = import.meta.env.BASE_URL;
 import { removeUser } from "../utils/userSlice";
 
 const NavBar = () => {
