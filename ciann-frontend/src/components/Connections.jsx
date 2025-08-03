@@ -1,6 +1,6 @@
 import axios from "axios";
 import React, { useEffect } from "react";
-const BASE_URL = import.meta.env.BASE_URL;
+const BASE_URL = import.meta.env.VITE_BASE_URL;
 import { useDispatch, useSelector } from "react-redux";
 import { addConnections } from "../utils/connectioinSlice";
 import {Link} from "react-router-dom";

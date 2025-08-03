@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import UserCard from "./UserCard";
 import axios from "axios";
-const BASE_URL = import.meta.env.BASE_URL;
+const BASE_URL = import.meta.env.VITE_BASE_URL;
 import { useDispatch } from "react-redux";
 import { addUser } from "../utils/userSlice";
 

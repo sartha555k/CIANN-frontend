@@ -1,6 +1,6 @@
 import axios from "axios";
 import React from "react";
-const BASE_URL = import.meta.env.BASE_URL;
+const BASE_URL = import.meta.env.VITE_BASE_URL;
 import { useDispatch } from "react-redux";
 import { removefeed } from "../utils/feedSlice";
 const UserCard = ({ user }) => {
